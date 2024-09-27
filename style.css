@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cont {
+    margin-top: 128px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.maintitle {
+    margin-top: 128px;
+}
+
+.tabs__btns {
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.tab__btn {
+    padding: 20px 40px;
+    border: none;
+    border-radius: 90px;
+    background: #ccc;
+    cursor: pointer;
+}
+
+.active-btn {
+    background: #17aacb;
+    color: #fff;
+}
+
+.tabs__items {
+    margin-top: 44px;
+}
+
+.cards {
+    border: 1px solid #ccc;
+    padding: 32px;
+    border-radius: 32px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.card {
+    background: #e8e8e8;
+    padding: 32px;
+    border-radius: 32px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.doctor-name {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.doctor-number, .doctor-orientation {
+    margin-top: 8px;
+    opacity: 0.75;
+    font-size: 14px;
+}
+
+.tab__text {
+    display: none;
+}
+
+.tab__text.active {
+    display: block;
+}
